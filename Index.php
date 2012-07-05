@@ -1,0 +1,1 @@
+<?php require_once ("config.php");?><html><head></head><body><?php require_once("classes/player.class.php");$player = new player($newDB);$player->getPlayer(1);var_dump($player);?></body></html>
